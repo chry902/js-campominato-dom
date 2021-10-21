@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color: rgb(72, 81, 117);
+    width:1000px;
+    min-width: 1000px;
+    min-height: 1000px;
+    margin: 5rem auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    align-items: center;
+    
+    
+}
+.livelli{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+.grid_cell{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(157, 206, 44);
+}
